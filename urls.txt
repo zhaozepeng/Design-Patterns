@@ -3,3 +3,5 @@ http://www.tekbroaden.com/singleton-java.html?hmsr=toutiao.io&utm_medium=toutiao
 http://www.cnblogs.com/hxsyl/archive/2013/03/19/2969489.html
 http://www.blogjava.net/kenzhh/archive/2013/03/15/357824.html
 http://blog.csdn.net/jason0539/article/details/23297037
+https://sourcemaking.com/design_patterns/singleton/java/1
+http://stackoverflow.com/questions/70689/what-is-an-efficient-way-to-implement-a-singleton-pattern-in-java
