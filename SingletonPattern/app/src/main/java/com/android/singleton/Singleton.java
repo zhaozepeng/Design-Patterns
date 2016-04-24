@@ -68,7 +68,27 @@ public class Singleton {
 
     //5---static inner class thread-safety
     private static class SingletonHolder{
-        public static final Singleton instance = new Singleton();
+        private static final Singleton instance = new Singleton();
+    }
+    private Singleton(){
+        name = "static inner class thread-safety";
     }
 
+    public static Singleton getInstance(){
+        return SingletonHolder.instance;
+    }
+}
+
+enum SingleEnum{
+    INSTANCE("enum singleton thread-safety");
+
+    private String name;
+
+    SingleEnum(String name){
+        this.name = name;
+    }
+
+    public String getName(){
+        return name;
+    }
 }
