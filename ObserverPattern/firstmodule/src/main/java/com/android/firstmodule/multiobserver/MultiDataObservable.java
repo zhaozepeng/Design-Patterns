@@ -8,20 +8,20 @@ import java.util.ArrayList;
  * @author zzp(zhao_zepeng@hotmail.com)
  * @since 2016-05-14
  */
-public class MultiDataObserver implements IMultiDataObservable {
+public class MultiDataObservable implements IMultiDataObservable {
 
-    private static volatile MultiDataObserver instance;
+    private static volatile MultiDataObservable instance;
     private ArrayList<Object> observers;
 
-    private MultiDataObserver() {
+    private MultiDataObservable() {
         observers = new ArrayList<>();
     }
 
-    public static MultiDataObserver getInstance() {
+    public static MultiDataObservable getInstance() {
         if (instance == null) {
-            synchronized (MultiDataObserver.class) {
+            synchronized (MultiDataObservable.class) {
                 if (instance == null) {
-                    instance = new MultiDataObserver();
+                    instance = new MultiDataObservable();
                 }
             }
         }

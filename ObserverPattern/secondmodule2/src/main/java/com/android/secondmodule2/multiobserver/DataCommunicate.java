@@ -3,9 +3,8 @@ package com.android.secondmodule2.multiobserver;
 import android.util.Log;
 
 import com.android.firstmodule.DataBean;
-import com.android.firstmodule.javaapi.DataObservable;
 import com.android.firstmodule.multiobserver.IMultiDataObservable;
-import com.android.firstmodule.multiobserver.MultiDataObserver;
+import com.android.firstmodule.multiobserver.MultiDataObservable;
 import com.android.firstmodule.multiobserver.listener.IDataListenerOne;
 import com.android.firstmodule.multiobserver.listener.IDataListenerTwo;
 
@@ -23,7 +22,7 @@ public class DataCommunicate {
     private static IDataListenerTwo listenerTwo = null;
 
     public static void registerDataListenerTwo() {
-        IMultiDataObservable dataObservable = MultiDataObserver.getInstance();
+        IMultiDataObservable dataObservable = MultiDataObservable.getInstance();
         listenerTwo = new IDataListenerTwo() {
             @Override
             public void OnDataChanged(DataBean data) {
@@ -34,7 +33,7 @@ public class DataCommunicate {
     }
 
     public static void notifyDataListenerOne() {
-        IMultiDataObservable dataObservable = MultiDataObserver.getInstance();
+        IMultiDataObservable dataObservable = MultiDataObservable.getInstance();
         ArrayList<IDataListenerOne> lists = dataObservable.findObserver(IDataListenerOne.class);
         DataBean bean = new DataBean();
         bean.temperature = (int) (Math.random() * 40);
@@ -44,7 +43,7 @@ public class DataCommunicate {
     }
 
     public static void unRegisterDataListenerTwo() {
-        IMultiDataObservable dataObservable = MultiDataObserver.getInstance();
+        IMultiDataObservable dataObservable = MultiDataObservable.getInstance();
         dataObservable.deleteObserver(listenerTwo);
     }
 }
