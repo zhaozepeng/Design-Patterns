@@ -18,9 +18,9 @@ public class MultiDataObserver implements IMultiDataObservable {
     }
 
     public static MultiDataObserver getInstance() {
-        if (instance == null){
-            synchronized (MultiDataObserver.class){
-                if (instance == null){
+        if (instance == null) {
+            synchronized (MultiDataObserver.class) {
+                if (instance == null) {
                     instance = new MultiDataObserver();
                 }
             }
@@ -46,8 +46,8 @@ public class MultiDataObserver implements IMultiDataObservable {
     @Override
     public <T> ArrayList<T> findObserver(Class<T> clazz) {
         ArrayList<T> lists = new ArrayList<>();
-        for (Object observer : observers){
-            if (clazz.isInstance(observer)){
+        for (Object observer : observers) {
+            if (clazz.isInstance(observer)) {
                 lists.add(clazz.cast(observer));
             }
         }

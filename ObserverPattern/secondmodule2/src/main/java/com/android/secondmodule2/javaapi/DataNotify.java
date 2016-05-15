@@ -1,6 +1,6 @@
-package com.android.secondmodule2.javaapi.javaapi;
+package com.android.secondmodule2.javaapi;
 
-import com.android.firstmodule.javaapi.DataBean;
+import com.android.firstmodule.DataBean;
 import com.android.firstmodule.javaapi.DataObservable;
 
 /**

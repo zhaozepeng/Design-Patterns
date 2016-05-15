@@ -2,7 +2,7 @@ package com.android.secondmodule1.javaapi;
 
 import android.util.Log;
 
-import com.android.firstmodule.javaapi.DataBean;
+import com.android.firstmodule.DataBean;
 import com.android.firstmodule.javaapi.DataObservable;
 
 import java.util.Observable;

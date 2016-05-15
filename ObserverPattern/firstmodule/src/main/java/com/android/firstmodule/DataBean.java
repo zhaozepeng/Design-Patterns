@@ -1,4 +1,4 @@
-package com.android.firstmodule.javaapi;
+package com.android.firstmodule;
 
 /**
  * Description: #TODO

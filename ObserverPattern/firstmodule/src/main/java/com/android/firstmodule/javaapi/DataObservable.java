@@ -1,5 +1,7 @@
 package com.android.firstmodule.javaapi;
 
+import com.android.firstmodule.DataBean;
+
 import java.util.Observable;
 
 /**
