@@ -85,6 +85,8 @@ public class ReusablePool implements IReusablePool {
 
     @Override
     public void setMaxPoolSize(int size) {
-        maxSize = size;
+        synchronized (lock) {
+            maxSize = size;
+        }
     }
 }
