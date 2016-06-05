@@ -1,6 +1,7 @@
 package com.android.adapterpattern.objectadapter;
 
 import android.content.Context;
+import android.database.DataSetObserver;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
@@ -154,13 +155,26 @@ public class TurnplateView extends ViewGroup{
 		if (adapter.getCount() > MAX_NUM) {
 			throw new NumberOverFlowException(adapter.getCount());
 		}
+		adapter.registerDataSetObserver(new DataSetObserver() {
+			@Override
+			public void onChanged() {
+				super.onChanged();
+				onDataSetChanged();
+			}
+
+			@Override
+			public void onInvalidated() {
+				super.onInvalidated();
+				onDataSetChanged();
+			}
+		});
 		initChild();
 	}
 
 	/**
 	 * 数据源发生变更，需要重新绘制布局
 	 */
-	public void onDataSetChanged(){
+	private void onDataSetChanged(){
 		initChild();
 	}
 
@@ -235,7 +249,7 @@ public class TurnplateView extends ViewGroup{
 	 * 删除子view
 	 * @param view
 	 */
-//	private void removeChild(final View view){
+//	public void removeChild(final View view){
 //		try{
 //			this.removeView(view);
 //			location.remove(0);
