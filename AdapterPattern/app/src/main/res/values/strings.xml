@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AdapterPattern</string>
+    <string name="text">android</string>
 </resources>
