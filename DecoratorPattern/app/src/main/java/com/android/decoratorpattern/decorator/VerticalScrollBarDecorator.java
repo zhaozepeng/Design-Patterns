@@ -8,7 +8,7 @@ import android.util.Log;
  * @author Shawn(zhao_zepeng@hotmail.com)
  * @since 2016-06-09
  */
-public class VerticalScrollBarDecorator extends DecoratorWindow{
+public class VerticalScrollBarDecorator extends WindowDecorator {
 
     public VerticalScrollBarDecorator(IWindow window) {
         super(window);

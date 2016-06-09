@@ -8,7 +8,7 @@ import android.util.Log;
  * @author Shawn(zhao_zepeng@hotmail.com)
  * @since 2016-06-09
  */
-public class HorizontalScrollBarDecorator extends DecoratorWindow{
+public class HorizontalScrollBarDecorator extends WindowDecorator {
 
     public HorizontalScrollBarDecorator(IWindow window) {
         super(window);

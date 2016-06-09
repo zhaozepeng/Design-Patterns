@@ -6,11 +6,11 @@ package com.android.decoratorpattern.decorator;
  * @author Shawn(zhao_zepeng@hotmail.com)
  * @since 2016-06-09
  */
-public abstract class DecoratorWindow implements IWindow{
+public abstract class WindowDecorator implements IWindow{
 
     private IWindow window;
 
-    public DecoratorWindow(IWindow window) {
+    public WindowDecorator(IWindow window) {
         this.window = window;
     }
 
