@@ -1,4 +1,4 @@
-﻿# Design-Patterns
+﻿﻿# Design-Patterns
 
 android/java design patterns
 
@@ -13,3 +13,4 @@ android/java design patterns
 [java/android 设计模式学习笔记（6）---适配器模式](http://blog.csdn.net/self_study/article/details/51585664)</br>
 [java/android 设计模式学习笔记（7）---装饰者模式](http://blog.csdn.net/self_study/article/details/51591709)</br>
 [java/android 设计模式学习笔记（8）---桥接模式](http://blog.csdn.net/self_study/article/details/51622243)</br>
+[java/android 设计模式学习笔记（9）---代理模式](http://blog.csdn.net/self_study/article/details/51628486)</br>
