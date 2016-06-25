@@ -44,7 +44,6 @@ public class Computer {
         public Builder setMemoryType(String memoryType) {
             this.memoryType = memoryType;
             return this;
-        }
 
         public Builder setMemorySize(int memorySize) {
             this.memorySize = memorySize;
