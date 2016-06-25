@@ -15,3 +15,4 @@ android/java design patterns
 [java/android 设计模式学习笔记（8）---桥接模式](http://blog.csdn.net/self_study/article/details/51622243)</br>
 [java/android 设计模式学习笔记（9）---代理模式](http://blog.csdn.net/self_study/article/details/51628486)</br>
 [java/android 设计模式学习笔记（10）---建造者模式](http://blog.csdn.net/self_study/article/details/51707029)</br>
+[java/android 设计模式学习笔记（11）---原型模式](http://blog.csdn.net/self_study/article/details/51757525)</br>
