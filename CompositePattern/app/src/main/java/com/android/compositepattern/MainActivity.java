@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Component root = new Composite();
 
                 Component leaf1 = new Leaf();
-                Composite branch = new Composite();
+                Component branch = new Composite();
                 root.add(leaf1);
                 root.add(branch);
 
