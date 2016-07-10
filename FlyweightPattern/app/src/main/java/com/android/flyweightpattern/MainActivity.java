@@ -6,13 +6,13 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-import com.android.flyweightpattern.flyweight.Flyweight;
-import com.android.flyweightpattern.flyweight.FlyweightFactory;
+import com.android.flyweightpattern.flyweight.Shape;
+import com.android.flyweightpattern.flyweight.ShapeFactory;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Button btn_flyweight;
-    private FlyweightFactory factory = new FlyweightFactory();
+    private ShapeFactory factory = new ShapeFactory();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,11 +31,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btn_flyweight:
-                Flyweight flyweight1 = factory.getFlyweight("a");
-                Flyweight flyweight2 = factory.getFlyweight("b");
-                Flyweight flyweight3 = factory.getFlyweight("a");
-                Log.e("Shawn", "flyweight1==flyweight2 : " + (flyweight1 == flyweight2));
-                Log.e("Shawn", "flyweight1==flyweight3 : " + (flyweight1 == flyweight3));
+                Shape shape1 = factory.getShape("红色");
+                shape1.draw();
+                Shape shape2 = factory.getShape("灰色");
+                shape2.draw();
+                Shape shape3 = factory.getShape("绿色");
+                shape3.draw();
+                Shape shape4 = factory.getShape("红色");
+                shape4.draw();
+                Shape shape5 = factory.getShape("灰色");
+                shape5.draw();
+                Shape shape6 = factory.getShape("灰色");
+                shape6.draw();
+
+                Log.e("Shawn", "一共绘制了"+factory.getSize()+"中颜色的圆形");
                 break;
         }
     }
