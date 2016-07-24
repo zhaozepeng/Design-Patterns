@@ -19,3 +19,4 @@ android/java design patterns
 [java/android 设计模式学习笔记（12）---组合模式](http://blog.csdn.net/self_study/article/details/51761709)</br>
 [java/android 设计模式学习笔记（13）---享元模式](http://blog.csdn.net/self_study/article/details/51870660)</br>
 [java/android 设计模式学习笔记（14）---外观模式](http://blog.csdn.net/self_study/article/details/51931196)</br>
+[java/android 设计模式学习笔记（15）---责任链模式](http://blog.csdn.net/self_study/article/details/52012370)</br>
