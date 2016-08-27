@@ -21,3 +21,4 @@ android/java design patterns
 [java/android 设计模式学习笔记（14）---外观模式](http://blog.csdn.net/self_study/article/details/51931196)</br>
 [java/android 设计模式学习笔记（15）---责任链模式](http://blog.csdn.net/self_study/article/details/52012370)</br>
 [java/android 设计模式学习笔记（16）---命令模式](http://blog.csdn.net/self_study/article/details/52091539)</br>
+[java/android 设计模式学习笔记（17）---策略模式](http://blog.csdn.net/self_study/article/details/52248437)</br>
