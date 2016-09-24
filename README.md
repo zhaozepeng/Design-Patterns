@@ -24,3 +24,6 @@ android/java design patterns
 [java/android 设计模式学习笔记（17）---策略模式](http://blog.csdn.net/self_study/article/details/52248437)</br>
 [java/android 设计模式学习笔记（18）---中介者模式](http://blog.csdn.net/self_study/article/details/52344610)</br>
 [java/android 设计模式学习笔记（19）---状态模式](http://blog.csdn.net/self_study/article/details/52432486)</br>
+[java/android 设计模式学习笔记（19）---状态模式](http://blog.csdn.net/self_study/article/details/52432486)</br>
+[java/android 设计模式学习笔记（20）---迭代器模式](http://blog.csdn.net/self_study/article/details/52502709)</br>
+[java/android 设计模式学习笔记（21）---备忘录模式](http://blog.csdn.net/self_study/article/details/52561728)</br>
