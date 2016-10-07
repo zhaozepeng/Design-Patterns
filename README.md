@@ -28,3 +28,4 @@ android/java design patterns
 [java/android 设计模式学习笔记（20）---迭代器模式](http://blog.csdn.net/self_study/article/details/52502709)</br>
 [java/android 设计模式学习笔记（21）---备忘录模式](http://blog.csdn.net/self_study/article/details/52561728)</br>
 [java/android 设计模式学习笔记（22）---模板方法模式](http://blog.csdn.net/self_study/article/details/52662896)</br>
+[java/android 设计模式学习笔记（23）---解释器模式](http://blog.csdn.net/self_study/article/details/52737559)</br>
